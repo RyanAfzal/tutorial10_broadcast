@@ -32,3 +32,13 @@ ketika client dan server menggunakan port yang sama dalam hal ini adalah port 80
 ![image](https://github.com/RyanAfzal/tutorial10_broadcast/assets/137851158/cb4bbe3e-3d7c-4bb6-b25a-cab83a7de9e2) <br>
 Ketika client dan server menggunakan port yang berbeda dalam hal ini server pada port 8080 dan client pada port 2000 maka akan terjadi error pada client karena menurut client port tersebut tidak memiliki koneksi dan program akan crash saat dijalankan seperti yang tertera pada gambar di atas.
 
+#### 2.3. Small changes. Add some information to client
+![image](https://github.com/RyanAfzal/tutorial10_broadcast/assets/137851158/73df5fd5-7290-406b-a0ac-8c170e20e7db) <br>
+
+![image](https://github.com/RyanAfzal/tutorial10_broadcast/assets/137851158/e68ac63a-a471-4bae-9699-9cbe34b239af) <br>
+
+![image](https://github.com/RyanAfzal/tutorial10_broadcast/assets/137851158/9ca93f1a-396e-4f43-a95e-0363ba789078) <br>
+
+![image](https://github.com/RyanAfzal/tutorial10_broadcast/assets/137851158/01f4cd8b-08ae-4e89-b47b-b131d46fbff7) <br>
+
+Saya melakukan sedikit perubahan pada sisi client yaitu saat client mengirimkan pesan, client juga mengirimkan informasi ip dan port dari pengirim pesannya.
